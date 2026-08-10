@@ -1,0 +1,58 @@
+## Atividade Prática 20/05/2026 ##
+
+#include <stdio.h>
+
+#include <string.h>
+
+struct Livro {
+    char titulo[100];
+
+    char autor[100];
+
+    int ano_publicacao;
+};
+
+int main() {
+    struct Livro meu_livro;
+
+    printf("Digite o titulo do livro: ");
+
+    fgets(meu_livro.titulo, 100, stdin);
+
+    meu_livro.titulo[strcspn(meu_livro.titulo, "\n")] = '\0';
+
+    printf("Digite o autor do livro: ");
+
+    fgets(meu_livro.autor, 100, stdin);
+
+    meu_livro.autor[strcspn(meu_livro.autor, "\n")] = '\0';
+
+    printf("Digite o ano de publicacao: ");
+
+    scanf("%d", &meu_livro.ano_publicacao);
+
+    printf("\n--- Informacoes do Livro ---\n");
+
+    printf("Titulo: %s\n", meu_livro.titulo);
+
+    printf("Autor: %s\n", meu_livro.autor);
+
+    printf("Ano de Publicacao: %d\n", meu_livro.ano_pub
+
+licacao);
+
+
+
+    return 0;
+
+}
+
+* Sobre  código:
+
+O programa cria um "molde" (struct) para representar um único livro e funciona em três etapas simples:
+
+1- Estrutura: Define os campos que o livro terá (título, autor e ano de publicação).
+
+2 - Entrada de dados: Pede ao usuário que digite as informações do livro e as salva na memória.
+
+3 -Saída de dados: Imprime na tela as informações recém-digitadas de forma organizada.
