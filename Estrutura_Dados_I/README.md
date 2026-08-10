@@ -1,4 +1,4 @@
-* ## Revisão referente a Estrutura de Dados I ##
+## Revisão referente a Estrutura de Dados I ##
 
 https://docs.google.com/document/d/1VUArDYOLD-b6-AWfIVCAfpt8xIp_byrQThrwCdWN9xQ/edit?usp=sharing
 
