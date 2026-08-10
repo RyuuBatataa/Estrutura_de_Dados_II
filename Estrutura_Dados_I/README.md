@@ -4,4 +4,4 @@ https://docs.google.com/document/d/1VUArDYOLD-b6-AWfIVCAfpt8xIp_byrQThrwCdWN9xQ/
 
 ## 10/08 ##
 
-* # Atividade 1 # - Enviar uma atividade feita na disciplina #Estrutura de Dados I#
+* Atividade I:  Enviar uma atividade feita na disciplina Estrutura de Dados I
